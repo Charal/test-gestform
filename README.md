@@ -10,6 +10,7 @@ Generate list of 10 integer number, between range of -1000 and 1000, for each nu
 
 • otherwise: out is the number
 
+Command line :
 python divided_by.py    
 
 Out example :
@@ -34,7 +35,6 @@ Out example :
     
     -713 >> -713
     
-
 
 Launch unit test :
 python tests/test_methods_unittest.py
