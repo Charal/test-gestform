@@ -12,6 +12,18 @@ Generate list of 10 integer number, between range of -1000 and 1000, for each nu
 
 python divided_by.py    
 
+Out example :
+    -250 >> Forme
+    -920 >> Forme
+    608 >> 608
+    -344 >> -344
+    -788 >> -788
+    -693 >> Geste
+    840 >> Gestform
+    363 >> Geste
+    -684 >> Geste
+    -713 >> -713
+
+
 Launch unit test :
 python tests/test_methods_unittest.py
-
