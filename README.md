@@ -13,6 +13,7 @@ Generate list of 10 integer number, between range of -1000 and 1000, for each nu
 python divided_by.py    
 
 Out example :
+
     -250 >> Forme
     
     -920 >> Forme
