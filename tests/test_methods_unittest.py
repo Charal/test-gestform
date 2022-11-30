@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append("../gestform")
+sys.path.append("../test-gestform")
 from divided_by import *
 import unittest
 
