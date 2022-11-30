@@ -16,6 +16,7 @@ def is_forme(number):
     return number % 5 == 0
 
 
+# Iterate over a list of numbers and test their divisibility
 def main():
     sentence = ""
     list_number = generate_random_integers()
