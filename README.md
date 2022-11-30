@@ -12,8 +12,7 @@ Generate list of 10 integer number, between range of -1000 and 1000, for each nu
 # Installation:
 In your target repository :
 
-    gh repo clone Charal/test-gestform
-    cd test-gestform
+    gh repo clone Charal/test-gestform && cd test-gestform
         
 # Install dependencies : 
     pip install numpy
