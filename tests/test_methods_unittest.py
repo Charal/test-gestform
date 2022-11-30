@@ -1,15 +1,16 @@
 import sys
+
 sys.path.append("../gestform")
 from divided_by import *
 import unittest
 
-class TestMethods(unittest.TestCase):
 
+class TestMethods(unittest.TestCase):
     def test_random_integers(self):
         number_list = generate_random_integers()
         self.assertIsInstance(number_list, list)
-        self.assertEqual(len(number_list),10)
-        for n in number_list :
+        self.assertEqual(len(number_list), 10)
+        for n in number_list:
             self.assertGreaterEqual(n, -1000)
             self.assertLessEqual(n, 1000)
 
@@ -31,5 +32,6 @@ class TestMethods(unittest.TestCase):
         self.assertFalse(is_forme(73))
         self.assertFalse(is_forme(5554))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
